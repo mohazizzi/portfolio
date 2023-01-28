@@ -13,7 +13,7 @@ const worksData = [
     title: "وبسایت فروشگاهی",
     text: "وبسایت فروشگاهی ریسپانسیو با ری اکت",
     skills: ["HTML", "CSS", "Reactjs"],
-    demo: "https://mohazizzi.ir/orcid-ecommerice-website/",
+    demo: "https://mohazizzi.github.io/orcid-ecommerice-website/",
     githubLink: "https://github.com/mohazizzi/orcid-ecommerice-website",
   },
   {
@@ -31,7 +31,7 @@ const worksData = [
     title: "برنامه هفتگی",
     text: "سایتی برای ساختن برنامه ی هفتگی دانشجویی",
     skills: ["HTML", "CSS", "Reactjs"],
-    demo: "https://mohazizzi.ir/weekly-shedule/",
+    demo: "https://mohazizzi.github.io/weekly-shedule/",
     githubLink: "https://github.com/mohazizzi/weekly-shedule",
     smallImage: true,
   },
