@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: iran-sans-bold;
+  font-weight: 700;
+  font-display: block;
+  src: url(./assets/fonts/iran-sans/IRANSans-Bold-web.eot);
+  src: url(./assets/fonts/iran-sans/IRANSans-Bold-web.eot?#iefix) format("eot"),
+    url(./assets/fonts/iran-sans/IRANSans-Bold-web.woff2) format("woff2"),
+    url(./assets/fonts/iran-sans/IRANSans-Bold-web.woff) format("woff"),
+    url(./assets/fonts/iran-sans/IRANSans-Bold-web.ttf) format("ttf");
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: iran-sans-light;
+  font-weight: 400;
+  font-display: block;
+  src: url(./assets/fonts/iran-sans/IRANSans-Light-web.eot);
+  src: url(./assets/fonts/iran-sans/IRANSans-Light-web.woff2) format("woff2"),
+    url(./assets/fonts/iran-sans/IRANSans-Light-web.woff) format("woff"),
+    url(./assets/fonts/iran-sans/IRANSans-Light-web.ttf) format("ttf");
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: iran-sans-med;
+  font-weight: 400;
+  font-display: block;
+  src: url(./assets/fonts/iran-sans/IRANSans-Medium-web.eot);
+  src: url(./assets/fonts/iran-sans/IRANSans-Medium-web.eot?#iefix)
+      format("eot"),
+    url(./assets/fonts/iran-sans/IRANSans-Medium-web.woff2) format("woff2"),
+    url(./assets/fonts/iran-sans/IRANSans-Medium-web.woff) format("woff"),
+    url(./assets/fonts/iran-sans/IRANSans-Medium-web.ttf) format("ttf");
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: LeagueSpartan-Bold;
+  font-display: block;
+  src: url(./assets/fonts/LeagueSpartan-Bold.ttf);
 }
-
-.App-link {
-  color: #61dafb;
+:root {
+  --bg: #1c1d25;
+  --text-color: #b0b2c3;
+  --text-primery: #f06449;
+  --color-green-dark: #1aa37a,
+  --color-green-light: #9dffb3,
+  --color-seccess: #14a44d;
+  --color-danger: #dc4c64;
+  --color-neutral-000: #fff;
+  --color-neutral-100: #f0f0f1;
+  --color-neutral-200: #e0e0e2;
+  --color-neutral-300: #c0c2c5;
+  --color-neutral-400: #a1a3a8;
+  --color-neutral-500: #81858b;
+  --color-neutral-600: #62666d;
+  --color-neutral-700: #424750;
+  --color-neutral-800: #232933;
+  --color-neutral-900: #0c0c0c;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: iran-sans-med;
+}
+.over-flow-x-hiden {
+  overflow-x: hidden;
+}
+body {
+  background-color: var(--bg);
+  /* background: rgb(41, 50, 60); */
+  height: 100vh;
+  color: var(--text-color);
+}
+.container {
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+}
+@media only screen and (max-width: 530px) {
+  .container {
+    width: 95vw;
   }
 }
