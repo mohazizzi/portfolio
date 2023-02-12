@@ -31,7 +31,7 @@ const worksData = [
     title: "برنامه هفتگی",
     text: "سایتی برای ساختن برنامه ی هفتگی دانشجویی",
     skills: ["HTML", "CSS", "Reactjs"],
-    demo: "https://mohazizzi.github.io/daneshgo.planner/",
+    demo: "https://uni-planner.ir",
     githubLink: "https://github.com/mohazizzi/daneshgo.planner",
     smallImage: true,
   },
